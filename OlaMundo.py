@@ -1,3 +1,10 @@
-nome = input('Dgite seu nome:')
+nome = input('Digite seu nome:')
 
-print('Ola, mundo!')
+idade == int(input("Digite sua idade: "))
+
+print(f'Ola, {nome}!')
+
+if idade >= 18:
+    print("Você é maior de idade!")
+else:
+    print("Você é menor de idade!")
