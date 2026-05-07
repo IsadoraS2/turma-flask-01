@@ -7,5 +7,6 @@ create table 'tb_alunos' (
     nome VARCHAR(150) NOT NULL,
     email VARCHAR(255) NOT NULL UNIQUE,
     senha VARCHAR(19) NOT NULL,
-    Ttelefone VARCHAR(14);
+    telefone VARCHAR(14);
+    data_nasc DATETIME
 );
